@@ -14,7 +14,10 @@ Given a set of images of a crime scene, we plan on reconstructing the scene in 3
 ## 1. GCNDepth: 
 This folder contains the implementation of a Graph Convolution Neural Network that performs Monocular Depth Estimation. 
 ### Setup
-
+```bash
+cd Code
+git clone https://github.com/ArminMasoumian/GCNDepth.git
+```
 #### Requirements:
 - PyTorch1.2+, Python3.5+, Cuda10.0+
 - mmcv==0.4.4
